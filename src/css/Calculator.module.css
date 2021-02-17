@@ -1,0 +1,109 @@
+.calcContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-width: 400px;
+  max-width: 550px;
+  width: 50%;
+  height: 85%;
+  margin: auto;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.4);
+  background: #fff;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 85%;
+  height: 20vh;
+  margin: auto;
+  padding: 2% 3%;
+  border-radius: 5px;
+  box-shadow: inset 0 2px 8px 0 rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  z-index: 1;
+}
+
+.calcInput {
+  display: flex;
+  width: 100%;
+  height: 45%;
+  border: none;
+  margin: 0;
+  text-align: right;
+  font-family: 'Open 24 Display St'; 
+  font-size: 7vh;
+  line-height: 100%;
+  z-index: 0;
+}
+
+.calcInput:focus {
+  outline: none;
+}
+
+.calcOutput {
+  color: #85b0d8;
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 53vh;
+  margin: 0;
+  transition: translate 0.3s;
+  transform-style: preserve-3d;
+}
+
+.btnContainer:last-child {
+  border-left: 1px solid rgba(0, 0, 0, 0.3);
+  flex-direction: column;
+}
+
+.operands {
+  width: 74%;
+}
+
+.operators {
+  width: 25%;
+}
+
+.calcBtn {
+  display: flex;
+  margin: auto;
+  background: none;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.4);
+  font-family: 'Londrina Outline';
+  line-height: 100%;
+}
+
+.calcBtn:focus {
+  outline: none;
+}
+
+.calcBtn:active {
+  transform: translateY(3px);
+  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.4), inset 0px 1px 2px 0px rgba(0, 0, 0, 0.4)
+
+}
+
+.operandBtn {
+  width: 27%;
+  height: 20%;
+  font-size: 9vh;
+}
+
+.operatorBtn {
+  width: 80%;
+  height: 15%;
+  font-size: 7vh;
+}
+
+.btnTxt {
+  margin: auto;
+}

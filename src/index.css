@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Open 24 Display St';
+  src: url(./fonts/Open24DisplaySt.woff2);
+}
+
+@font-face {
+  font-family: 'Londrina Outline';
+  src: url(./fonts/LondrinaOutline-Regular.woff2);
+}
+
+body {
+  margin: 0;
+  font-family: 'Open 24 Display St', 'Londrina Outline','Roboto', 'Ubuntu', 'Helvetica Neue', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
